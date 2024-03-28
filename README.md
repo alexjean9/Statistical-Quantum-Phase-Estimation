@@ -13,7 +13,7 @@ By eigenphase we mean this: the eigenvalues of a unitary matrix will always have
 
 $eigenvalue = e^{j \cdot eigenphase}$
 
-where *j* is the imagionary number and *eigenphase* is any real number (in radians). That is, the eigenvalue +1 has a an eigenphase of 0 radians. The eigenvalue -1 has an eigenphase of pi radians. Frequently $eigenphase \in \[0, 2 pi\)$ is used, but $eigenphase \in \[-pi, pi\)$ is also valid.
+where *j* is the imagionary number and *eigenphase* is any real number (in radians). That is, the eigenvalue +1 has a an eigenphase of $0$ radians. The eigenvalue -1 has an eigenphase of $\pi$ radians. Frequently $eigenphase \in \[0, 2 \pi\)$ is used, but $eigenphase \in \[-\pi, \pi\)$ is also valid.
 
 Generally, in quantum phase estimation, the circuit returns a random eigenphase after each run. Nominally, the user cannot prevent the circuit from returning a previously determined eigenphase.
 
